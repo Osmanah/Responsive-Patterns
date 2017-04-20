@@ -1,3 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.containerMain{
+    margin: auto 0;
+    width: 100%;
+    border: black solid 1px;
+    display: flex;
+}
+
+.menu-list{
+    width: 200px;
+    background-color: #34495E;
+    color: white;
+    font-size: 1.5em;
+}
+
+.menu-list ul{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.menu-item{
+    padding-top: 15px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.mainsection{
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.toogle{
+    margin-right: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .menu-list{
+        display: none;
+    }
+}
+
+.toogle{
+    display: flex;
+}
+
+.closebar{
+    display: none;
+}
+
+/*CSS MAIN VIDEO IMAGE FOOTER*/
 
   .col-group > div {
     padding: 1em 1em 0;
